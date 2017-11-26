@@ -51,7 +51,7 @@ export default class Collapsible extends Component {
             top: 0,
             transform: [{ translateY: this.position }]
           }}>
-          <Animated.View style={{ flex: 1, opacity: this.opacity }}>
+          <Animated.View style={{ flex: 1 }}>
             {this.props.renderHeader}
           </Animated.View>
         </Animated.View>
